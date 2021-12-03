@@ -15,5 +15,5 @@ dependencies:
 
 git, g++, sudo perms(optional)
 ```sh
-git clone https://github.com/MaybeAnonymous/mathnt.git && cd mathnt && g++ -o mathnt mathnt.cpp && cp mathnt /.local/bin/ # You can use 'sudo cp mathnt /usr/bin/' for global install
+git clone https://github.com/MaybeAnonymous/mathnt.git && cd mathnt && g++ -o mathnt mathnt.cpp && cp mathnt ~/.local/bin/ # You can use 'sudo cp mathnt /usr/bin/' for global install
 ```
