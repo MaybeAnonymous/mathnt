@@ -11,7 +11,9 @@ the program support linux only afaik
 program compiled using g++
 
 how to compile it yourself:
+dependencies:
 
+git, g++
 ```sh
-cd mathnt && WIP
+git clone https://github.com/MaybeAnonymous/mathnt.git && cd mathnt && g++ -o mathnt mathnt.cpp
 ```
