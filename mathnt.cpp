@@ -1,7 +1,10 @@
-// broken cli calculator
+// mathn't, made by maybeanonymousdev
 #include <iostream>
 
 int main() {
+    std::cout << "Made by ma-dev\n";
+    std::cout << " +------+\n --/\\/\\--\n -/ o o\\\n /      \\\n";
+
     int a;
     int b;
     char opr;
@@ -18,24 +21,24 @@ int main() {
     // checks what opr is, then gives output
     switch(opr) {
         case '+':
-            std::cout << std::to_string(a) + std::to_string(b) << std::endl;
+            std::cout << std::endl << std::to_string(a) + std::to_string(b) << std::endl;
             break;
         case 'x':
         case 'X':
         case '*':
-            std::cout << a * b * a * b << std::endl;
+            std::cout << std::endl << a * b * a * b << std::endl;
             break;
         case '-':
-            std::cout << (a - b) * -1 << std::endl;
+            std::cout << std::endl << (a - b) * -1 << std::endl;
             break;
         case '/':
         case ':':
-            std::cout << a / b + (a * a) / b << std::endl;
+            std::cout << std::endl << a / b + (a * a) / b << std::endl;
             break;
         default:
-            std::cout << "Error: Invalid operator!\n";
+            std::cout << "\nError: " << opr << " is not a valid operator!\n";
             break;
     }
-    
+
     return 0;
 }
