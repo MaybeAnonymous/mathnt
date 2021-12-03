@@ -10,6 +10,7 @@ how to compile it yourself:
 dependencies:
 
 git, g++, sudo perms(for installing it, this is optional.)
+
 global install:
 ```sh
 git clone https://github.com/MaybeAnonymous/mathnt.git && cd mathnt && g++ -o mathnt mathnt.cpp && sudo cp mathnt /usr/bin
