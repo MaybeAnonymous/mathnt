@@ -1,4 +1,4 @@
-# mathnt
+# mathn't
 computer program made to be stupid!
 
 ---
