@@ -1,0 +1,41 @@
+// broken cli calculator
+#include <iostream>
+
+int main() {
+    int a;
+    int b;
+    char opr;
+
+    std::cout << "First Number: ";
+    std::cin >> a;
+
+    std::cout << "Operator: ";
+    std::cin >> opr;
+
+    std::cout << "Second Number: ";
+    std::cin >> b;
+
+    // checks what opr is, then gives output
+    switch(opr) {
+        case '+':
+            std::cout << std::to_string(a) + std::to_string(b) << std::endl;
+            break;
+        case 'x':
+        case 'X':
+        case '*':
+            std::cout << a * b * a * b << std::endl;
+            break;
+        case '-':
+            std::cout << (a - b) * -1 << std::endl;
+            break;
+        case '/':
+        case ':':
+            std::cout << a / b + (a * a) / b << std::endl;
+            break;
+        default:
+            std::cout << "Error: Invalid operator!\n";
+            break;
+    }
+    
+    return 0;
+}
