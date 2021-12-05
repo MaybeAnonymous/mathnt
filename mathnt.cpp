@@ -2,8 +2,12 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Made by ma-dev\n";
-    std::cout << " +------+\n --/\\/\\--\n -/ o o\\\n /      \\\n";
+    std::cout << "Made by ma-dev using C++\n";
+    std::cout <<
+        "+------+\n"
+        "--/\\/\\--\n"
+        "-/ o o\\-\n"
+        "/      \\\n";
 
     int a;
     int b;
@@ -29,7 +33,7 @@ int main() {
             std::cout << std::endl << a * b * a * b << std::endl;
             break;
         case '-':
-            std::cout << std::endl << (a - b) * -1 << std::endl;
+            std::cout << std::endl << (a - b) * -0.5 << std::endl;
             break;
         case '/':
         case ':':
