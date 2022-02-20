@@ -18,13 +18,28 @@ If it does not execute, use `chmod +x mathntpy.py`
 
 **dependencies:**
 
-git, g++, sudo perms(for installing it, this is optional.)
+git, g++, sudo perms(optional)
 
 Global installation:
 ```sh
-git clone https://github.com/MaybeAnonymous/mathnt.git && cd mathnt && g++ -o mathnt mathnt.cpp && sudo cp mathnt /usr/bin
+git clone https://github.com/MaybeAnonymous/mathnt.git && cd mathnt && g++ -o mathnt mathnt.cpp && sudo cp mathnt /usr/local/bin
 ```
 Create the binary without installing:
 ```sh
 git clone https://github.com/MaybeAnonymous/mathnt.git && cd mathnt && g++ -o mathnt mathnt.cpp
+```
+
+# .rs
+
+**dependencies:**
+
+git, rustc, sudo perms(optional)
+
+Global installation:
+```sh
+git clone https://github.com/MaybeAnonymous/mathnt.git && cd mathnt && rustc mathntrs.rs && sudo cp mathntrs /usr/local/bin
+```
+Create the binary without installing:
+```sh
+git clone https://github.com/MaybeAnonymous/mathnt.git && cd mathnt && rustc mathntrs.rs
 ```
